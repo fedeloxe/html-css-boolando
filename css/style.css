@@ -21,7 +21,7 @@ header{
     color: white;
     padding-top: 20px;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 header img{
@@ -168,3 +168,18 @@ footer .row{
     color: red;
 }
 
+.overlay{
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    top:0;
+    
+}
+
+.col-33:hover .overlay{
+    opacity: 1;
+}
+
+.index{
+    z-index: 1;
+}
