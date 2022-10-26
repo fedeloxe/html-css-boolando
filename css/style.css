@@ -17,14 +17,27 @@
 header{
     width: 100%;
     background-color: #ff6900 ;
-    height: 80px;
+    height: 90px;
     color: white;
-    padding-top: 30px;
+    padding-top: 20px;
     position: fixed;
 }
 
 header img{
     width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.icon{
+    text-align: right;
+}
+
+/*main*/
+main{
+    padding-top: 200px;
 }
 
 
@@ -32,5 +45,23 @@ header img{
 
 header .row{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+}
+
+.col-33{
+    width: calc(100%/3);
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.content{
+    width: 100%;
+}
+
+main .row{
+    display: flex;
+}
+
+.content img{
+    width: 100%;
 }
