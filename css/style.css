@@ -146,9 +146,7 @@ footer .row{
     left: 0px;
 }
 
-.label-item{
 
-}
 
 .item-brand{
     display: block;
@@ -163,7 +161,7 @@ footer .row{
     text-decoration:line-through;
 }
 
-.item-price-sale{
+.item-price-sale, .label-heart:hover{
     
     color: red;
 }
